@@ -16,7 +16,6 @@ function FoodDetail() {
       .then((res) => res.json())
       .then((data) => setMeal(data.meals[0]));
   }, [id]);
-
   const increaseQuantity = () => setQuantity((prev) => prev + 1);
   const decreaseQuantity = () => setQuantity((prev) => (prev > 1 ? prev - 1 : 1));
 

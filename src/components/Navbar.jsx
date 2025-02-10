@@ -15,6 +15,8 @@ function Navbar() {
       <Link to="/"><h1>Foodovity</h1></Link>
       <div className="nav-links">
         <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
         <Link to="/cart" className="cart-icon">
           <FaShoppingCart size={24} />
           {totalItems > 0 && <span className="cart-count">{totalItems}</span>}
