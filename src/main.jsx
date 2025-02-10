@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router } from "react-router-dom"; // ✅ Router should be here
+import { BrowserRouter as Router } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
 import App from "./App";
 import "./index.css";
